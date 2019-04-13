@@ -22,7 +22,8 @@ public class App
         
         //Vechicle b=new Bike();
         //b.drive();
-    ApplicationContext con=new ClassPathXmlApplicationContext();
+    ApplicationContext con=new ClassPathXmlApplicationContext("SpringDemo.xml");
         Vechicle v1=(Vechicle)con.getBean("vechicle");
+        v1.drive();
     }
 }
