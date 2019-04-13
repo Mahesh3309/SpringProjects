@@ -1,4 +1,4 @@
-package in.mac.durga.AAA_CoreProjectSetterInjection;
+package in.mac.durga.testflow;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

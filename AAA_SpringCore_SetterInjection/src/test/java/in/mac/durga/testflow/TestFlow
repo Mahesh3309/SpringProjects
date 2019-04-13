@@ -1,0 +1,10 @@
+Spring Core Setter Injection:
+
+1)SetterInjectionTest
+	Read Config file from ...cfg file.
+	Created ApplicationContext and Bean of WishMessageGenerator.
+	
+In ApplicationContext.xml 
+	We created Bean for  WishMessageGenerator and set Date bean automatically when WishMessageGenerator is created.
+	
+	
