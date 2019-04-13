@@ -8,7 +8,11 @@ import org.springframework.core.io.Resource;
 import in.mac.durga.beans.WishMessageGenerator;
 
 public class SetterInjectionTest {
-
+/**
+ * @author Mahesh Kharat  12-Apr-2019
+ *    GitHub Link
+ *      https://github.com/Mahesh3309/GitUploadSpring.git
+ */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

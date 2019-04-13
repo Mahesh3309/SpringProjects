@@ -6,5 +6,6 @@ Spring Core Setter Injection:
 	
 In ApplicationContext.xml 
 	We created Bean for  WishMessageGenerator and set Date bean automatically when WishMessageGenerator is created.
+	Call GeneratorWishMessage() of WishMessageGenerator to Print Message. 
 	
 	
