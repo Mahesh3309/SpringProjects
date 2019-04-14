@@ -1,0 +1,17 @@
+1) ThightCoupling.java
+
+Created BeanFactory by reading ApplicationContext.Xml file
+Created bean of FilpCart in Witch DTDC courier automatically injected.
+Call Shopping method of FlipCart.
+
+2)FlipCart.java
+
+Take Item List from User and generate Order No as well as Total amount for Order.
+
+3)Courier.java
+
+Interface for All Delivery of Items.
+
+4)BlueDart.java , DTDC.java , FirstFlight.java 
+
+Implemented classes from Courier.  
