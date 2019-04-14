@@ -1,0 +1,15 @@
+Strategy Design Pattern:
+	1)Prefer Composition(HAS-A) Avoid Inheritance(IS-A)
+		Disadvantage of IS-A ---> we can not extend 2 class at a time.
+	2)Always code interface and never code with Implementation
+	3)Code Should be open to  extension and must be closed for modification.
+		Make method as Final in inheritance implemented class.
+
+Flow of Execution.
+
+Created vechicle bean from ApplicationContext.xml.
+While createing vechicle bean we automatically inject CNG engine.
+
+While calling Start and Move method we called respected method form respected Engine Type.
+
+Also we calculate HashCode for for 2 Vechicle Object.
