@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Resolving constructor params by type -->
+	<bean id="emp" class="in.mac.durga.beans.Employee">
+		<constructor-arg type="int" value="100" />
+		<constructor-arg type="String" value="Mahesh Kharat" />
+		<constructor-arg type="float" value="55000.50f" />
+	</bean>
+	<!-- Resolving constructor params by index -->
+	<bean id="marks" class="in.mac.durga.beans.Marks">
+		<constructor-arg index="2" value="200" />
+		<constructor-arg index="3" value="300" />
+		<constructor-arg index="0" value="95" />
+		<constructor-arg index="1">
+			<value>100</value>
+		</constructor-arg>
+	</bean>
+
+	<!-- Resolving constructor params by name -->
+	<bean id="cust" class="in.mac.durga.beans.Customer">
+		<constructor-arg name="cname" value="Mahesh" />
+		<constructor-arg name="cno" value="101" />
+		<constructor-arg name="billAmt" value="550" />
+		<constructor-arg name="addrs" value="Mumbai" />
+
+	</bean>
+</beans>
