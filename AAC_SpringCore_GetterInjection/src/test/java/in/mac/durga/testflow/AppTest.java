@@ -1,4 +1,4 @@
-package in.mac.durga.AAC_SpringCore_GetterInjection;
+package in.mac.durga.testflow;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
